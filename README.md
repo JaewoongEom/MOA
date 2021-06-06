@@ -1,16 +1,16 @@
 # ![WebApp](https://iharsh234.github.io/WebApp/images/demo/demo_landing.JPG)
-# WebApp
+# MOA(Meeting On Air)
 <table>
 <tr>
 <td>
-  A webapp using Quandl API to display history of stock growth in a given period of time. It helps predict the growth of stocks from the  charts of stock performace in any period of time. It helps to judge stocks, with the principle of momentum investing, which returns 1% per month on average.
+  Meeting On Air는 개인부터 기업까지 다양한 회의가 필요할 때, 회의방을 만들어 회의와 자료를 공유할 수 있도록 하는 화상 회의 서비스입니다.
 </td>
 </tr>
 </table>
 
 
-## Demo
-Here is a working live demo :  https://iharsh234.github.io/WebApp/
+## Service
+서비스는 아직 배포되고 있지 않습니다.
 
 
 ## Site
