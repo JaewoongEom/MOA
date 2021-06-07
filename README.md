@@ -1,4 +1,5 @@
-# ![WebApp](https://iharsh234.github.io/WebApp/images/demo/demo_landing.JPG)
+<p align="center"><img src="https://user-images.githubusercontent.com/20276476/120958059-d7d24880-c791-11eb-854e-735bf0d2ff48.png"></p>
+
 # MOA(Meeting On Air)
 <table>
 <tr>
@@ -15,68 +16,51 @@
 
 ## Site
 
-### Landing Page
-Currently it is working on all NSE (India) Stocks, BSE (India) Stocks Symbol will be added soon.
+### 로그인 페이지
+서비스 이용을 위한 로그인 페이지입니다.
 
-![](https://iharsh234.github.io/WebApp/images/demo/web_app_face.JPG)
+![](https://user-images.githubusercontent.com/20276476/120957921-85912780-c791-11eb-8984-63f6d48c0701.png)
 
-### Query Filled Form
-![](https://iharsh234.github.io/WebApp/images/demo/demo_query.JPG)
+### 방 목록 페이지
+로그인 이후의 참여하거나 생성한 방 목록을 보여주는 페이지 입니다.
+![](https://user-images.githubusercontent.com/20276476/120958401-a443ee00-c792-11eb-8579-1c89008ff673.png)
 
-### Charts
-![](https://iharsh234.github.io/WebApp/images/demo/demo_chart1.JPG)
-![](https://iharsh234.github.io/WebApp/images/demo/demo_chart2.JPG)
-![](https://iharsh234.github.io/WebApp/images/demo/demo_chart3.JPG)
+### 방 만들기
+회의방을 만드는 페이지 입니다.
+![](https://user-images.githubusercontent.com/20276476/120958538-e705c600-c792-11eb-8cfd-47d0c3789d6b.png)
 
+### 회의방
+회의방의 인터페이스 입니다
+* 영상, 마이크 기능
+* 한명 이상 입장 시 회의 시간 시작, 인원 수 표시(SSE)
+* 채팅 기능과 채팅방에 드래그 앤 드롭을 이용한 파일 업로드
+![](https://user-images.githubusercontent.com/20276476/120958711-3c41d780-c793-11eb-903b-b3e15d37f2d9.png)
 
-## Mobile support
-The WebApp is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
-
-![](https://iharsh234.github.io/WebApp/images/demo/mobile.png)
-
-
-
-
-## [Usage](https://iharsh234.github.io/WebApp/) 
-
-### Development
-Want to contribute? Great!
-
-To fix a bug or enhance an existing module, follow these steps:
-
-- Fork the repo
-- Create a new branch (`git checkout -b improve-feature`)
-- Make the appropriate changes in the files
-- Add changes to reflect the changes made
-- Commit your changes (`git commit -am 'Improve feature'`)
-- Push to the branch (`git push origin improve-feature`)
-- Create a Pull Request 
 
 ### Bug / Feature Request
-
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/iharsh234/WebApp/issues/new) by including your search query and the expected result.
-
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/iharsh234/WebApp/issues/new). Please include sample queries and their corresponding results.
+버그 발생, 새로운 기능 제안 시 [issue](https://github.com/EomJaeWoong/MOA/issues/new)를 만들어 주셔서 결과나 개선점을 첨부해 주시면 감사하겠습니다!
 
 
 ## Built with 
 
-- [jQuery - Ajax](http://www.w3schools.com/jquery/jquery_ref_ajax.asp) - jQuery simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.
-- [Google Chart API](https://developers.google.com/chart/interactive/docs/quick_start) - Free , Rich Gallery , Customizable and Cross-browser compatible.
-- [Bootstrap](http://getbootstrap.com/) - Extensive list of components and  Bundled Javascript plugins.
+- [React](https://ko.reactjs.org/)
+- [Node.js](https://nodejs.org/ko/)
+- [Sequelize](https://sequelize.org/)
+- [WebRTC](https://webrtc.org/)
+- [React-Bootstrap](https://react-bootstrap.github.io/)
 
 
 ## To-do
-- Add BSE (India) Symbol to the current App.
-- Decide comparison models of Stocks. (suggestions are most welcome).
-- Another WebApp, capable of comparing at least 10 stocks.
+- 페이지 디자인 개선
+- 회의 방 기능 개선
+  - 공개방, 비공개방 보여주기 여부
 
 ## Team
 
-[![Harsh Vijay](https://avatars1.githubusercontent.com/u/12688534?v=3&s=144)](https://github.com/iharsh234)  | [![Quandl.com](https://github.com/iharsh234/WebApp/blob/master/images/quandl.jpg)](https://www.quandl.com/)
----|---
-[Harsh Vijay ](https://github.com/iharsh234) |[Quandl](https://www.quandl.com)
+[![Eomjaewoong](https://avatars.githubusercontent.com/u/20276476?v=3&s=144)](https://github.com/eomjaewoong) | [![Steven Lee](https://avatars.githubusercontent.com/u/55133749?v=3&s=144)](https://github.com/rlgns98kr) | [![jeongwookkim](https://avatars.githubusercontent.com/u/59384058?v=3&s=144)](https://github.com/jeongwookkim) | <img src="https://avatars.githubusercontent.com/u/58549161?v=3&s=144" width="145" height="145" />
+---|---|---|---|
+[엄재웅](https://github.com/eomjaewoong)|[이기훈](https://github.com/rlgns98kr)|[김정욱](https://github.com/jeongwookkim)|[문성준](https://github.com/Seongjun-Moon)
 
-## [License](https://github.com/iharsh234/WebApp/blob/master/LICENSE.md)
+## License
 
-MIT © [Harsh Vijay ](https://github.com/iharsh234)
+MIT
